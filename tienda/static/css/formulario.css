@@ -1,0 +1,48 @@
+#titulo-form{
+    text-align: center;
+    margin-top: 2%;
+}
+
+#formulario{
+    background-color: #f7af4b;
+    border-radius: 20px;
+   
+    margin-bottom: 10%;
+}
+
+form{
+   margin:8%;
+   
+}
+
+input {
+    margin: 6px;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+label{
+    margin-left: 28%;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.botones{
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+

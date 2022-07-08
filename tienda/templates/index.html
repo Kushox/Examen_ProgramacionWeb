@@ -1,0 +1,148 @@
+{% extends 'base.html' %} 
+{% load static %}
+
+{% block contenido %}          
+
+        
+          
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <div class="img"><img class="d-block img-fluid" src="{% static 'img/perro01.jpg' %}" alt="First slide"></div>
+              </div>
+              <div class="carousel-item">
+                <div class="img"><img class="d-block img-fluid" src="{% static 'img/perro02.jpg' %}" alt="Second slide"></div>
+              </div>
+              <div class="carousel-item">
+                <div class="img"><img class="d-block img-fluid" src="{% static 'img/perro03.jpg' %}" alt="Third slide"></div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+
+
+        
+          <div id="lista-cursos">
+            <h1 id="encabezado__cursos">Productos para perritos</h1>
+
+           
+            <div class="cursos__container">
+              <div class="curso__item">
+                <div class="curso__card">
+                  <img src="{% static 'img/gatitos/1.jpg'%}" class="imagen__curso">
+                  <div class="info__card">
+                    <h5>Api Snake Rascador</h5>
+                    <h4 style="font-size: 10px;">Rascador para gatos con camita 30x30x52 cm Ø 8,5 cm</h4>
+                    <p><span class="discount">$34.990</span>  </p>
+                    <a href="#" class="agregar-carrito" data-id="1"><i class="fa fa-cart-plus"></i>&nbsp;  AGREGAR AL CARRITO</a>
+                  </div>
+                </div> 
+              </div>
+        
+              <div class="curso__item">
+                <div class="curso__card">
+                  <img src="{% static 'img/gatitos/2.jpg'%}" class="imagen__curso">
+                  <div class="info__card">
+                    <h4>Bandeja Sanitaria</h4>
+                    <h4 style="font-size: 10px;">Bandeja sanitaria con borde blanco para gatos</h4>
+                    <p><span class="discount">$11.990</span>  </p>
+                    <a href="#" class="agregar-carrito" data-id="2"><i class="fa fa-cart-plus"></i>&nbsp;  AGREGAR AL CARRITO</a>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="curso__item">
+                <div class="curso__card">
+                  <img src="{% static 'img/gatitos/3.jpg'%}" class="imagen__curso">
+                  <div class="info__card">
+                    <h4>Collar con campana</h4>
+                    <p><span class="discount">$5.990</span>  </p>
+                    <a href="#" class="agregar-carrito" data-id="2"><i class="fa fa-cart-plus"></i>&nbsp;  AGREGAR AL CARRITO</a>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="curso__item">
+                <div class="curso__card">
+                  <img src="{% static 'img/gatitos/4.jpg'%}" class="imagen__curso">
+                  <div class="info__card">
+                    <h4>Fuente Bebedera Flower-Flor</h4>
+                    <h4 style="font-size: 10px;"> Fuente para gatos automática</h4>
+                    <p><span class="discount">$53.990</span>  </p>
+                    <a href="#" class="agregar-carrito" data-id="2"><i class="fa fa-cart-plus"></i>&nbsp;  AGREGAR AL CARRITO</a>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="curso__item">
+                <div class="curso__card">
+                  <img src="{% static 'img/perritos/1.jpg'%}" class="imagen__curso">
+                  <div class="info__card">
+                    <h4>Dreamwell Cama Rectangular Negra</h4>
+                    <h4 style="font-size: 10px;">Cama Rectangular Negra Para Perros</h4>
+                    <p><span class="discount">$7.890</span>  </p>
+                    <a href="#" class="agregar-carrito" data-id="2"><i class="fa fa-cart-plus"></i>&nbsp;  AGREGAR AL CARRITO</a>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="curso__item">
+                <div class="curso__card">
+                  <img src="{% static 'img/perritos/2.jpg'%}" class="imagen__curso">
+                  <div class="info__card">
+                    <h4>Melamine Bowl Doble</h4>
+                    <h4 style="font-size: 10px;">Cuenco doble de melanina, ideal para perros de todas las razas</h4>
+                    <p><span class="discount"> $6.743</span>  </p>
+                    <a href="#" class="agregar-carrito" data-id="2"><i class="fa fa-cart-plus"></i>&nbsp;  AGREGAR AL CARRITO</a>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="curso__item">
+                <div class="curso__card">
+                  <img src="{% static 'img/perritos/3.jpg'%}" class="imagen__curso">
+                  <div class="info__card">
+                    <h4>Silicone Collar</h4>
+                    <h4 style="font-size: 10px;">Collar de silicona completamente resistente y duradero</h4>
+                    <p><span class="discount">$10.990</span>  </p>
+                    <a href="#" class="agregar-carrito" data-id="2"><i class="fa fa-cart-plus"></i>&nbsp;  AGREGAR AL CARRITO</a>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="curso__item">
+                <div class="curso__card">
+                  <img src="{% static 'img/perritos/4.jpg'%}" class="imagen__curso">
+                  <div class="info__card">
+                    <h4>Transportador - Gris</h4>
+                    <h4 style="font-size: 10px;">Transportín para perros con ventana y marco de metal</h4>
+                    <p><span class="discount">$53.991</span>  </p>
+                    <a href="#" class="agregar-carrito" data-id="2"><i class="fa fa-cart-plus"></i>&nbsp;  AGREGAR AL CARRITO</a>
+                  </div>
+                </div>
+              </div>
+        
+              </div>
+            
+          </div>
+        
+          <script src="{% static 'js/app.js'%}"></script>
+          
+          
+
+
+{% endblock%}          
+
+     
+
+
+      
+        
